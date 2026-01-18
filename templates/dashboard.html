@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h2>Dashboard</h2>
+
+    <p>Total Expense: {{ total }}</p>
+    <p>Total Items: {{ count }}</p>
+
+    <h3>Category Wise</h3>
+    <ul>
+        {% for cat, amt in categories %}
+            <li>{{ cat }} : {{ amt }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/add_expense">Add Expense</a> |
+    <a href="/view_expenses">View Expenses</a> |
+    <a href="/export_csv">Export CSV</a> |
+    <a href="/logout">Logout</a>
+</body>
+</html>
