@@ -18,13 +18,13 @@ This is a Flask-based Expense Tracker project built using Python and Flask.
 1. Clone the repository
    git clone https://github.com/Raoyalrajesh123/expense-tracker.git
 
-2. Go into the project folder
+2.
    cd expense-tracker
 
-3. Install required libraries
+3.
    pip install -r requirements.txt
 
-4. Run the application
+4. 
    python app.py
 
 5. Open browser and visit
