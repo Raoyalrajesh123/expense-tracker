@@ -8,5 +8,7 @@ This is a Flask-based Expense Tracker project.
 - User login/signup
 
 ## How to run
-1. pip install -r requirements.txt
-2. python app.py
+1)git clone https://github.com/Raoyalrajesh123/expense-tracker.git
+2)cd expense-tracker
+3)pip install -r requirements.txt
+4)python app.py
